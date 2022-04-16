@@ -173,11 +173,19 @@ footer hr {
 	header {
 		padding: 32px 0;
 	}
+
+	footer ul li {
+		display: block;
+	}
 }
 
 @media screen and (max-width: 380px) {
 	#hero .logo {
-		margin-top: 48px;
+		margin-top: 0px;
 		width: 100%;
+	}
+
+	footer ul li {
+		display: block;
 	}
 }
