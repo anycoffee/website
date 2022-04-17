@@ -116,6 +116,10 @@ section .beta {
 	cursor: pointer;
 }
 
+section .appstore > img {
+	height: 56px;
+}
+
 footer {
 	position: absolute;
   bottom: 0;
