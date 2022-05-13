@@ -45,7 +45,6 @@ header {
 	z-index: 2;
 	width: 100%;
 	padding: 32px;
-	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -171,6 +170,7 @@ footer hr {
 
 @media screen and (max-width: 480px) {
 	#hero .logo {
+		margin: 0;
 		height: 60px;
 	}
 
@@ -191,5 +191,18 @@ footer hr {
 
 	footer ul li {
 		display: block;
+	}
+}
+
+@media screen and (max-height: 800px) {
+	#hero .logo {
+		margin-top: 0px;
+		width: 100%;
+	}
+
+	footer {
+		position: relative;
+		display: flex;
+		margin-top: 24px;
 	}
 }
