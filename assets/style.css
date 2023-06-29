@@ -38,62 +38,17 @@ a:hover, .hover:hover {
 }
 
 header {
-	display: flex;
-	align-items: center;
-	font-size: 16px;
-	position: relative;
-	z-index: 2;
 	width: 100%;
 	padding: 32px;
-	justify-content: space-between;
-	align-items: center;
 }
 
 header .logo {
 	font-weight: 600;
 }
 
-header .inner {
-	display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-header ul li {
-	display: inline-block;
-	margin-left: 24px;
-	color: #333;
-	font-weight: 500;
-}
-
 #hero {
 	text-align: center;
 	margin: 24px auto;
-}
-
-#hero .logo {
-	height: 80px;
-	margin-top: 146px;
-	margin-bottom: 18px;
-	user-drag: none;
-  -webkit-user-drag: none;
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-}
-
-#hero h1 {
-	font-weight: 700;
-	font-size: 14px;
-	margin-bottom: 4px;
-}
-
-#hero h2 {
-	font-size: 24px;
-	font-size: 14px;
-	color: #777;
-	margin-bottom: 32px;
 }
 
 section {
