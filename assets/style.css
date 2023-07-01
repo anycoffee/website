@@ -28,18 +28,9 @@ a:hover, .hover:hover {
 	opacity: 0.75;
 }
 
-.inner {
-	width: 100%;
-	margin: 0 auto;
-}
-
-.padded {
-	padding: 64px;
-}
-
 header {
 	width: 100%;
-	padding: 32px;
+	padding: 10px 20px;
 }
 
 header h1 {
@@ -51,15 +42,6 @@ header h2 {
     font-size: 0.8em;
     font-weight: 400;
     color: #777;
-}
-
-header .logo {
-	font-weight: 600;
-}
-
-#hero {
-	text-align: center;
-	margin: 24px auto;
 }
 
 section {
@@ -99,58 +81,31 @@ footer hr {
 }
 
 @media screen and (max-width: 848px) {
-	.inner {
-		width: 100%;
-		padding-left: 64px;
-		padding-right: 64px;
+	header {
+		padding: 10px 20px;
 	}
 }
 
 @media screen and (max-width: 720px) {
-	.inner {
-		padding-left: 36px;
-		padding-right: 36px;
-	}
-	.padded {
-		padding: 36px;
+	header {
+		padding: 10px 20px;
 	}
 }
 
 @media screen and (max-width: 480px) {
-	#hero .logo {
-		margin: 0;
-		height: 60px;
-	}
-
 	header {
-		padding: 32px 0;
-	}
-
-	footer ul li {
-		display: block;
+		padding: 10px 20px;
 	}
 }
 
 @media screen and (max-width: 380px) {
-	#hero .logo {
-		margin-top: 0px;
-		width: 100%;
-	}
-
-	footer ul li {
-		display: block;
+	header {
+		padding: 10px 20px;
 	}
 }
 
 @media screen and (max-height: 800px) {
-	#hero .logo {
-		margin-top: 0px;
-		width: 100%;
-	}
-
-	footer {
-		position: relative;
-		display: flex;
-		margin-top: 24px;
+	header {
+		padding: 10px 20px;
 	}
 }
